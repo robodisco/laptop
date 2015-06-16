@@ -1,3 +1,18 @@
+Adam says
+---------
+
+Git clone the repo to local machine. 
+Create a symlink to the included laptop.local file in your home directory
+
+```sh
+ln -s path/to/cloned/repo/.laptop.local ~/.laptop.local
+```
+
+Adams ammendments
+-----------------
+
+Removed the brew installation of heroku-toolbelt in mac file because it installed heroku's standalone version which doesnt come with foreman. To get roudn this I downloaded heroku's mac version via brew cask which does include foreman. 
+
 Laptop
 ======
 
