@@ -1,0 +1,33 @@
+#!/bin/sh
+
+brew_tap 'caskroom/cask'
+brew_install_or_upgrade 'brew-cask'
+
+brew cask install heroku-toolbelt
+brew cask install anki
+brew cask install dropbox
+brew cask install evernote
+brew cask install kindle
+brew cask install google-drive
+brew cask install iterm2
+brew cask install licecap
+brew cask install notational-velocity
+brew cask install ngrok
+brew cask install sourcetree
+brew cask install vlc
+brew cask install backblaze
+brew cask install google-chrome
+brew cask install firefox
+brew cask install sublime-text
+brew cask install cyberduck
+brew cask install shiftit
+brew cask install sketch
+brew cask install transmission
+brew cask install flux
+brew cask install skype
+brew cask install camtasia
+brew cask install cleanmymac
+
+gem_install_or_update 'powder'
+
+
