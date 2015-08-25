@@ -1,7 +1,12 @@
 #!/bin/sh
+brew_install_or_upgrade 'git-flow'
 
 brew_tap 'caskroom/cask'
 brew_install_or_upgrade 'brew-cask'
+
+# Thoughtbots tool for handling heroku apps
+# https://github.com/thoughtbot/parity
+brew_install_or_upgrade 'parity' 
 
 brew cask install heroku-toolbelt
 brew cask install anki
