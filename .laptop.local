@@ -1,13 +1,11 @@
 #!/bin/sh
+brew_install_or_upgrade 'ansible'
 brew_install_or_upgrade 'git-flow'
+brew_install_or_upgrade 'parity' 
 brew_install_or_upgrade 'wget'
 
 brew_tap 'caskroom/cask'
 brew_install_or_upgrade 'brew-cask'
-
-# Thoughtbots tool for handling heroku apps
-# https://github.com/thoughtbot/parity
-brew_install_or_upgrade 'parity' 
 
 brew cask install heroku-toolbelt
 brew cask install anki
@@ -33,7 +31,10 @@ brew cask install flux
 brew cask install skype
 brew cask install camtasia
 brew cask install cleanmymac
+brew cask install virtualbox
+brew cask install vagrant
 
 gem_install_or_update 'powder'
+gem_install_or_update 'vagrant-bindfs'
 
 
