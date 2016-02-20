@@ -30,15 +30,17 @@ brew cask install cleanmymac
 brew cask install the-unarchiver
 brew cask install virtualbox
 brew cask install vagrant
+brew cask install pgadmin
 
 brew_install_or_upgrade 'ansible'
 brew_install_or_upgrade 'elasticsearch'
 brew_install_or_upgrade 'kibana'
 brew_install_or_upgrade 'git-flow'
-brew_install_or_upgrade 'parity' 
+brew_install_or_upgrade 'parity'
 brew_install_or_upgrade 'wget'
 brew_install_or_upgrade 'phantomjs'
 brew_install_or_upgrade 'libsndfile'
+brew_install_or_upgrade 'awscli'
 
 brew_tap 'homebrew/dupes'
 brew_tap 'homebrew/versions'
